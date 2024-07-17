@@ -1,0 +1,326 @@
+{
+  "info": {
+    "_postman_id": "ec5f5f7e-b6f1-4c36-8e87-41eb5ad3fe58",
+    "name": "test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "19665817"
+  },
+  "item": [
+    {
+      "name": "http://localhost:1323/hello",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/hello",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "hello"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/cats",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Kiss\",\r\n    \"years_of_experience\": 5,\r\n    \"breed\": \"Siberian\",\r\n    \"salary\": 5000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/cats",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "cats"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/cats",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"KISA\",\r\n    \"years_of_experience\": 3,\r\n    \"breed\": \"noname\",\r\n    \"salary\": 5000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/cats",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "cats"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/cats",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/cats",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "cats"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/cats/2",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"salary\": 35\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/cats/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "cats",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/missions",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cat_id\": 1,\r\n    \"complete\": false,\r\n    \"targets\": [\r\n        {\r\n            \"name\": \"Target 1\",\r\n            \"country\": \"Country 1\",\r\n            \"notes\": \"Notes for target 1\",\r\n            \"complete\": false\r\n        },\r\n        {\r\n            \"name\": \"Target 2\",\r\n            \"country\": \"Country 2\",\r\n            \"notes\": \"Notes for target 2\",\r\n            \"complete\": false\r\n        }\r\n    ]\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/missions",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "missions"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/missions/1",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/missions/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "missions",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/missions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/missions",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "missions"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/complete/2",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/complete/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "complete",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/targets/4",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:1323/targets/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "targets",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/updatenotes/4",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"notes\": \"New notes for 4\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/updatenotes/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "updatenotes",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/addtarget/3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Target which add\",\r\n    \"country\": \"Country 2\",\r\n    \"notes\": \"Notes about Target 1\",\r\n    \"complete\": false\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/addtarget/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "addtarget",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:1323/assigncat",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cat_id\": 3,\r\n    \"mission_id\": 3\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:1323/assigncat",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "1323",
+          "path": [
+            "assigncat"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

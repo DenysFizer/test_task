@@ -1,0 +1,8 @@
+{
+  "db_user": "admin",
+  "db_password": "admin",
+  "db_name": "db",
+  "db_host": "localhost",
+  "db_port": "5432",
+  "api_key": "your_thecatapi_key"
+}
